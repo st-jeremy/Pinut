@@ -1051,7 +1051,7 @@ button{
     background-color: black;
     color: white;
   }
-  .company a, .int a{
+  .company a, .int a, .pinutLife .int, .techServices .int,.future .int, .pinut, .techservices, .future{
     background-color: black;
     color: white;
   }
