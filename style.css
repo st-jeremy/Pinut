@@ -1047,7 +1047,7 @@ button{
 
 
 @media (prefers-color-scheme: dark) {
-  body, .navbar, .header, .Articles, .News, .Footer, .StartWithUs, .Articles .int, .future{
+  body, .navbar, .header, .Articles, .News, .Footer, .StartWithUs, .Articles .int, .future, .navbar a{
     background-color: black;
     color: white;
   }
