@@ -1,0 +1,1014 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  vertical-align: baseline;
+} 
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: DM Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1440px;;
+}
+
+*{
+  max-width: 1440px;
+}
+
+button{
+  width: fit-content;
+  padding: 0.8rem 1.5rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgb(207, 193, 193);
+  background-color: white;
+  color: rgb(65, 61, 61);
+  font-weight: 600;
+  font-size: 12pt;
+}
+img {
+  max-width: 100%
+}
+.colored{
+  background-color: rgb(89,184,140);
+  color: white;
+  border: none;
+  font-size: 11pt;
+}
+p{
+  color: rgb(65, 62, 62);
+  font-size: 12pt;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* navbar */
+.navbar img{
+  height: 38px;
+  width: 55px;
+  padding: 0%;
+}
+.navbar{
+  display: flex;
+  padding: 0.5rem 0;
+}
+.navbar1{
+  margin-left: -3%;
+  padding-top: 2%;
+  font-weight: bolder;
+}
+.navbar1 a{
+  color:black;
+}
+.navbar2, .navbar3{
+  display: none;
+}
+#red{
+  color: rgb(209, 23, 23);
+}
+
+/* Hamburger */
+.navbar4 a {
+  color: rgb(37, 19, 19);
+  width: 100vw;
+  text-decoration: none;
+  font-size: 14pt;
+}
+.hamburger .ham{
+  position: absolute;
+  top: 1.0rem;
+  right: 2.7rem;
+}
+.hamburger  #myLinks {
+  display: none;
+  position:relative;
+  margin: 2rem 0 auto -13rem;
+  padding: 10px 3.2rem;
+  width: 100%;
+  font-weight: 600;
+}
+.hamburger #myLinks a{
+  padding-top: .7rem;
+  padding-left: .8rem;
+  padding-bottom: .3rem;
+}
+#myLinks a:hover {
+  background-color: rgb(89,184,140);
+  color: white;
+}
+ .ham .icon{
+  display: block;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+}
+
+
+
+/* header */
+.header{
+  background-color: rgb(249,250,251);
+  padding: 2rem 1rem;
+}
+.welcome{
+  font-size: 12pt;
+  font-weight: 100;
+}
+.headache{
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.btn{
+  margin-top: 1rem;
+  width: 100%;
+}
+.btn button{
+  width: 40%;
+  padding: .5rem;
+}
+.header .col2{
+  margin-top: 1rem;
+}
+
+
+/* features */
+.Features{
+  padding: 2rem 0.8rem;
+}
+.Features .col1 h5{
+  color: rgb(116, 192, 156);
+}
+.Features .col1 h3{
+  margin: 0.5rem 0;
+  font-weight: 400;
+}
+.Features .col1 p{
+  font-size: 12pt;
+}
+.Features .col2{
+  margin-top: 3rem;
+}
+.develop, .deploy, .securely{
+  display:flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+.develop .left, .deploy .left, .securely .left{
+  width: 15%;
+}
+.develop .right, .deploy .right, .securely .right{
+  padding-top: 0.3rem;
+  width: 85%;
+  margin-left: 1rem;
+  margin-bottom: 0.9rem;
+}
+.develop .right p, .deploy .right p, .securely .right p{
+  margin: 0.7rem 0
+}
+.develop .right a, .deploy .right a, .securely .right a{
+  color: rgb(116, 192, 156);
+  text-decoration: none;
+  font-size: 11pt;
+  font-weight: 600;
+}
+
+
+/* infrastructures */
+.infrastructures{
+  padding: 2rem 0.8rem;
+}
+.infrastructures button{
+  font-size: 10pt;
+  padding: 0.8rem 1.0rem;
+}
+
+
+/* Offers */
+.offers{
+  padding: 2rem 0.8rem;
+}
+.offers .outer{
+  border: 1px solid rgb(238, 234, 234);
+  padding: 1.5rem .3rem 1rem;
+  margin-bottom: 1rem;
+}
+.icon{
+  width: 70px;
+  height: 65px;
+}
+.offers .inner{
+  border: none;
+  background-color: rgb(70,153,86);
+  color: white;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+.offers .inner h4{
+  margin-bottom: 3rem;
+}
+.offers .inner p{
+  color: white;
+  margin-bottom: 0.7rem;
+  font-size: 11pt;
+}
+.offers .inner a{
+  color: white;
+  font-size: 13pt;
+}
+.offers .inner span{
+  margin-bottom: -20rem;
+}
+
+
+/* StartWithUs */
+.StartWithUs{
+  padding: 4rem 0.9rem;
+  background-color: rgb(249,250,251);
+}
+.StartWithUs h4{
+  margin-top: 1rem;
+  font-weight: 400;
+  color: rgb(77, 72, 72);
+}
+.StartWithUs button{
+  font-size: 10pt;
+  padding: 0.8rem 0.5rem;
+}
+.StartWithUs .right{
+  width: 100%;
+  margin-left: .2rem;
+}
+.StartWithUs .row2 img{
+  margin: .2rem;
+}
+.StartWithUs .right .row1{
+  margin-left: 2.5rem;
+  width: 100%;
+}
+.StartWithUs .right .row2{
+  width: 100%;
+  display: flex;
+  padding-right: 0.5rem;
+}
+#pic11{
+  width: 30%;
+  height: 28%;
+}
+#pic12{
+  width: 30%;
+  height: 40%;
+}
+#pic21, #pic23{
+  width: 30%;
+  height: 30%;
+}
+#pic22{
+  width: 30%;
+  height: 60%;
+}
+
+
+/* Mission */
+.Mission{
+  padding: 4rem 0.9rem;
+  text-align: center;
+}
+.Mission button{
+  background-color: rgb(202,227,216);
+  color: rgb(96,187,145);
+  border-radius: 30px;
+  padding: 0.5rem;
+  border: none;
+}
+.Mission .row1 h5{
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+.Mission .row1 img{
+  width: 80%;
+  margin-bottom: 3rem;
+}
+.Mission hr{
+  width: 200%;
+  margin: auto -1rem;
+  padding: 0%;
+  color: rgb(247, 238, 238);
+}
+.Mission .row2{
+  text-align: center;
+}
+.Mission .box1, .Mission .box2, .Mission .box3{
+  margin: 2rem .5rem;
+}
+.Mission .box1 p, .Mission .box2 p, .Mission .box3 p{
+  margin-top: .5rem;
+  color: rgb(117, 111, 111);
+}
+.Mission .row3 img{
+  width: 200px;
+  height: 50px;
+  padding: .5rem 0;
+}
+
+
+/* Articles */
+.articles{
+  padding: 4rem 0.9rem;
+  background-color:  rgb(249,250,251);
+}
+.articles h5{
+  font-weight: 400;
+  color: rgb(44, 42, 42);
+}
+.articles h3{
+  margin: .7rem auto;
+}
+.articles .row1 p{
+  margin-bottom: 4rem;
+}
+.articles .row2 .outer img{
+  width:100%;
+  height: 11rem;
+}
+.articles .row2 .outer .inner img{
+  width: 10px;
+  height: 10px;
+}
+.articles .row2 .outer{
+  margin-bottom: 2rem;
+}
+.articles .inner{
+  margin-top: -.3rem;
+  border: 1px solid rgb(217, 210, 210);
+  padding: 1.9rem 1rem .5rem;
+  background-color: white;
+  height: fit-content;
+}
+.articles .inner p{
+  font-size: 11pt;
+}
+.articles a{
+  color: black;
+  font-size: 11pt;
+  margin-top: 2rem;
+}
+
+
+/* Join */
+.join{
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.join button{
+  font-size: 10pt;
+  padding: 0.8rem 0.5rem;
+}
+
+
+/* newsLetter */
+.newsLetter{
+  background-color:  rgb(249,250,251);
+  padding: 4rem 1rem;
+}
+.newsLetter .box2 input{
+  margin: 1rem 0;
+  width: 100%;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgb(237, 228, 228);
+}
+.newsLetter .box2 p{
+  font-size: 10pt;
+  color: rgb(111, 103, 103);
+  margin-top: 1rem;
+}
+.newsLetter .box2 a{
+  text-decoration: underline;
+  color: rgb(111, 103, 103);
+}
+
+
+/* Footer */
+.footer{
+  background-color:  rgb(249,250,251);
+  padding: 3rem 1rem;
+  line-height: 20.83px;
+  margin-top: 3rem;
+}
+.footer hr{
+  color: rgb(246, 244, 244);
+  width: 100%;
+  margin: auto -2%;
+}
+.footer .box1 .biz_name{
+  display: flex;
+  margin-bottom: .5rem;
+}
+.footer .box1 .biz_name img{
+  margin:  -.7rem 0 0 -1rem;
+  height: 45px;
+}
+.biz_name h3{
+  margin-left: -.7rem;
+}
+.up{
+  margin-bottom: .9rem;
+}
+.company{
+  color: rgb(57, 52, 52);
+}
+.company a{
+  color: rgb(96, 90, 90);
+  font-size: 13pt;
+  line-height: 21px;
+}
+.address{
+  color: rgb(57, 52, 52);
+}
+.address h3{
+  margin-bottom: .5rem;
+}
+.address p{
+  font-size: 13pt;
+}
+
+
+/* Media responsiveness */
+@media only screen and (min-width: 375px) {
+  .articles .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .articles .row2 .outer{
+    max-width: 340px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .articles .row2 .outer img{
+    width: cover;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  h4{
+    font-size: 120%;
+  }
+  h3{
+    font-size: 180%;
+  }
+  p{
+    color: rgb(65, 62, 62);
+    font-size: 14pt;
+  }
+  .navbar img{
+    padding-top: .6rem;
+    height: 45px;
+  }
+  .navbar1{
+    margin-left: -2%;
+  }
+  .navbar4 .hamburger .ham .icon{
+    margin-top: .6rem;
+  }
+  .hamburger #myLinks{
+    margin-left: -17rem;
+    padding-top: 1.5rem;
+  }
+  .offers .inner p{
+    font-size: 14pt;
+  }
+  .articles img{
+    height: 20rem;
+  }
+  .company h3{
+    margin-bottom: .5rem;
+  }
+  .footer h3{
+    font-size: 18pt;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .one{
+    float: left;
+  }
+  .two{
+    float: right;
+  }
+  .three{
+    float: none;
+  }
+  .navbar img{
+    height: 52px;
+    width: 65px;
+  }
+  .navbar img{
+    padding-top: 1.5%;
+  }
+  .navbar1{
+    margin-left: -1%;
+  }
+  .hamburger #myLinks{
+    margin-left: -17rem;
+  }
+  .btn button{
+    width: 25%;
+    padding: 1rem;
+  }
+  .Features .col2{
+    text-align: center;
+  }
+  .offers .outer{
+    width: 46%;
+  }
+  .offers .three{
+    clear: both;
+  }
+  .Mission .row2{
+    display: block;
+  }
+  .StartWithUs{
+    clear: both;
+  }
+  .StartWithUs .right{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+  }
+  .articles .row2{
+    display:list-item;
+  }
+  .Mission .row2 .box1, .Mission .row2 .box2, .Mission .row2 .box3{
+    width: 47%;
+  }
+  .Mission .row2 .box3{
+    margin: auto 30%;
+    float: left;
+  }
+  .Mission .row3{
+    clear: both;
+    margin-top: 18rem;
+  } 
+  .Mission .row3 img{
+    width: 30%;
+    margin-left: 1rem;
+  }
+  .articles .row2 .outer{
+    width: 47%;
+  }
+  .articles .row2 .outer img{
+    height: 40vh;
+  }
+  .articles .row2 .outer .inner{
+    height: 27vh;
+  }
+  .articles .row2 .outer .inner h3{
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar, .header, .Features, .infrastructures, .offers, .StartWithUs, .Mission, .articles, .join, .newsLetter, .footer{
+    padding-left: 3rem;
+  }
+  .navbar img{
+    width: 70px;
+    height: 50px;
+    margin-left: -1.2rem;
+  }
+  .navbar{
+    width: 95vw;
+    font-size: 80%;
+    background-color: white;
+    z-index: 1000;
+    position:fixed;
+    height: 3.5rem;
+  }
+  .navbar1{
+    margin-top: .4rem;
+  }
+  .navbar2{
+    display: block;
+    margin: 1.6rem 0 auto 4.8rem;
+    font-size: 130%;
+    font-weight: 600;
+  }
+  .navbar2 a{
+    margin-left: .8rem;
+    color: black;
+  }
+  #home{
+    color: green;
+    text-decoration: underline;
+  }
+  .navbar3{
+    display: block;
+    position: absolute;
+    right: .4%;
+    margin-top: .9rem;
+    font-size: 130%;
+    font-weight: 600;
+  }
+  .navbar3 a{
+    color: black;
+    margin-right: 1.5rem;
+  }
+  .navbar3 button{
+    padding: .7rem;
+    font-size: 100%;
+  }
+  .navbar4{
+    display: none;
+  }
+  .header{
+    margin-top: 4rem;
+    display: flex;
+    font-size: larger;
+  }
+  .header .col1{
+    width: 60%;
+    margin-top: 8rem;
+    padding: 0%;
+  }
+  .welcome{
+    font-size: 90%;
+  }
+  .header col2{
+    width: 40%;
+  }
+  .btn button{
+    font-size: 80%;
+    width: fit-content;
+  }
+  .Features .col1{
+    width: 50%;
+  }
+  .feature{
+    display: flex;
+  }
+  .Features .col2{
+    width: 50%;
+    margin-top: 10rem;
+  }
+  .develop, .deploy, .securely{
+    width: 50%;
+  }
+  .develop .left, .deploy .left, .securely .left{
+    max-width: 60px;
+  }
+  .develop{
+    margin-top: -23rem;
+  }
+  .infrastructures{
+    display: flex;
+  }
+  .infrastructures .left{
+    width: 67%;
+  }
+  .infrastructures .right{
+    width: 33%;
+  }
+  .offers .row{
+    display: flex;
+    clear: both;
+  }
+  .offers .outer{
+    width: fit-content;
+    width: 30%;
+    margin: auto;
+    height: 22rem;
+  }
+  .offers .row .outer .inner{
+    height: 15rem;
+  }
+  .offers .row .one .inner p{
+    margin-top: -.8rem;
+  }
+  .offers .row .two .inner p{
+    margin-top: 4.3rem;
+  }
+  .offers .row .three .inner p{
+    margin-top: -2rem;
+  }
+  .StartWithUs{
+    margin-top: 4rem;
+    display: flex;
+  }
+  .StartWithUs .left{
+    width: 40%;
+  }
+  .StartWithUs .right{
+    width: 60%;
+  }
+  .Mission .row1 h3{
+    font-size: 48px;
+    line-height: 62.5px;
+  }
+  .Mission .row1 h5{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+  } 
+  .Mission .row2{
+    display: flex;
+    clear: both;
+    float: none;
+  }
+  .Mission .row2 .box1, .Mission .row2 .box2, .Mission .row2 .box3{
+    width: 33%;
+  }
+  .Mission .row2 .box3{
+    margin: 0%;
+    margin-top: 2rem;
+    float: none;
+  }
+  .Mission .row3{
+    margin-top: auto;
+    width: 100%;
+    padding-right: 63px;
+  } 
+  .articles .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .articles .row2 .outer{
+    width: 30%;
+    margin-left: 1rem;
+  }
+  .articles .row2 .outer img{
+    height: 13rem;
+  }
+  .articles .row2 .outer .inner{
+    height: 10rem;
+  }
+  .articles .row2 .one .inner .oneP{
+    margin-top: -.8rem;
+  }
+  .newsLetter{
+    display: flex;
+  }
+  .newsLetter .box1{
+    width: 60%;
+    line-height: 200%;
+  }
+  .newsLetter .box2{
+    width: 40%;
+  }
+  .newsLetter .box2 p{
+    margin-top: 0%;
+  }
+  .newsLetter .box2 input{
+    width: 55%;
+    padding: .2rem;
+  }
+  .foot{
+    display: flex;
+  }
+  .foot .box1{
+    width: 30%;
+  }
+  .company{
+    width: fit-content;
+    margin-left: 5rem;
+  }
+  .address{
+    margin-left: 5rem;
+    width: 30%;
+
+  }
+
+}
+
+
+@media only screen and (min-width: 1150px) {
+  .articles .row2 .two .inner p{
+    margin-top: 1rem;
+  }
+}
+
+
+@media only screen and (width: 1366px) {
+  .offers .row .one .inner p{
+    margin-top: 6rem;
+  }
+  .offers .row .two .inner p{
+    margin-top: 6rem;
+  }
+  .offers .row .three .inner p{
+    margin-top: 4rem;
+  }
+  .articles .row2 .one .inner .oneP{
+    margin-top: .8rem;
+  }
+}
+
+
+@media only screen and (min-width: 1440px) {
+  *{
+    max-width: 1440px;
+    justify-content: center;
+  }
+  p{
+    font-size: 18pt;
+  }
+  .navbar{
+    margin-top: -.1.5rem;
+    font-size: 16px;
+  }
+  .navbar img{
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 3.4%;
+  }
+  .navbar1{
+    margin-left: .2rem;
+    position: absolute;
+    top: .2rem;
+    left: 6.5%;
+  }
+  .navbar2{
+    position: absolute;
+    left: 35%;
+    margin-top: 1.5rem;
+  }
+  .navbar2 a{
+    padding-right: 2rem;
+  }
+  .navbar3{
+    margin-left: 15rem;
+  }
+  .header{
+    font-size: 150%;
+  }
+  .header .col2{
+    width: 50%;
+  }
+  .Features{
+    font-size: 120%;
+  }
+  .feature .col1 p{
+    font-size: 18pt;
+  }
+  .feature .col2 img{
+    width: 100%;
+  }
+  .Features .develop{
+    margin-top: -29rem;
+  }
+  .Features .develop a, .Features .deploy a, .Features .securely a{
+    font-size: 18pt;
+  }
+  .infrastructures{
+    margin: 8rem auto;
+    font-size: 180%;
+  }
+  .infrastructures button{
+    font-size: 60%;
+  }
+  .offers{
+    font-size: 150%;
+  }
+  .offers .row .outer{
+    height: 25rem;
+  }
+  .offers .row .outer .inner{
+    height: 18rem;
+  }
+  .offers .row .one .inner p{
+    margin-top: 4.8rem;
+  }
+  .offers .row .two .inner p{
+    margin-top: 6.8rem;
+  }
+  .offers .row .outer .inner a{
+    font-weight: 600;
+  }
+  .StartWithUs{
+    font-size: 130%;
+  }
+  .StartWithUs .left{
+    width: 40%;
+    margin-top: 5rem;
+    font-size: 120%;
+  }
+  .StartWithUs button{
+    font-size: 80%;
+  }
+  .StartWithUs .right{
+    width: 40%;
+  }
+  .Mission h5{
+    font-size: 130%;
+  }
+  .Mission .row1 img{
+    width: 60%;
+  }
+  .Mission .row3{
+    width: 100%;
+  }
+  .Mission #washington{
+    padding-left: 0%;
+  }
+  .Mission .row3 img{
+    width: 8rem;
+    padding-left: 3rem;
+  }
+  .articles{
+    font-size: 100%;
+  }
+  .articles .row2 .inner p{
+    font-size: 90%;
+  }
+  .articles .row2 .inner a{
+    font-size: 90%;
+  }
+  .articles .row2 .one .inner br{
+    display: none;
+  }
+  .articles .row2 .two .inner a{
+    font-size: 90%;
+  }
+  .articles .row2 .one .inner .oneP{
+    margin-top: .7rem;
+  }
+  .join, .newsLetter{
+    font-size: 150%;
+  }
+  .join button{
+    font-size: 14pt;
+  }
+  .footer{
+    font-size: 70%;
+    line-height: 200%;
+    padding-left: 6rem;
+  }
+  .footer hr{
+    font-size: 12pt;
+    width: 95%;
+    margin-left: -.35rem;
+    color: grey;
+  }
+  .foot .box1 .biz_name{
+    margin-left: -8.5rem;
+  }
+  .foot .box1 p{
+    font-size: 13pt;
+  }
+  .company{
+    margin-left: 19rem;
+    width: 30%;
+  }
+  .company a{
+    font-size: 12pt;
+  }
+  .address{
+    margin-left: -6rem;
+  }
+  .address p{
+    font-size: 12pt;
+  }
+  .footer p{
+    font-size: 13pt;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+body{
+  padding-left: 13%;
+}
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body, .navbar, .header, .articles, .newsLetter, .footer, .StartWithUs, .articles .inner, .future, .navbar a{
+    background-color: black;
+    color: white;
+  }
+  .articles .row1 h5, p{
+    color: white;
+  }
+  .company a, .inner a,.Mission .row3 img{
+    color: white;
+  }
+  .foot h3{
+    color: white;
+  }
+}
